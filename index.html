@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Splash page using Figma</title>
+    <link rel="icon" type="image/png" href="ed-dev-favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Logo -->
+      <img src="logo.png" alt="Habitual logo" class="brand-img" />
+      <!-- Change bakground -->
+      <div class="background-toggles" title="Change background">
+        <div class="background-1" onclick="changeBackground('1')"></div>
+        <div class="background-2" onclick="changeBackground('2')"></div>
+        <div class="background-3" onclick="changeBackground('3')"></div>
+      </div>
+      <!-- Title and text -->
+      <div class="text-container">
+        <h1 class="title">Find the stuff you’ll love.</h1>
+        <p class="text">
+          Aliquam rhoncus pretium dolor volutpat lectus odio non tellus neque.
+          Aliquet et purus nibh bibendum integer etiam in enim nisi.
+        </p>
+        <!-- App store logo -->
+        <div class="app-store-btn">
+          <a href="https://apple.com" target="_blank">
+            <img src="app-store-logo.png" alt="App store" />
+          </a>
+        </div>
+        <!-- Google play logo -->
+        <div class="google-play-btn">
+          <a href="https://play.google.com" target="_blank">
+            <img src="google-play-logo.png" alt="Google play" />
+          </a>
+        </div>
+      </div>
+      <!-- Main image -->
+      <div class="main-image-container">
+        <img src="main-image.png" alt="Main phone" />
+      </div>
+      <!-- Secondary images -->
+      <img src="cart.png" alt="Cart" class="cart-img" />
+      <img src="home.png" alt="Home" class="home-img" />
+      <img src="orders.png" alt="Orders" class="orders-img" />
+      <img src="product.png" alt="Product" class="product-img" />
+      <img src="profile.png" alt="Profile" class="profile-img" />
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
